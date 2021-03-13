@@ -4,7 +4,7 @@ import { HelloWorldTextStyled } from './HelloWorldText.styles';
 
 import { HelloWorldTextProps } from './HelloWorldText.types';
 
-export const HelloWorldTextContainer = ({ label }: HelloWorldTextProps) => (
+export const HelloWorldText = ({ label }: HelloWorldTextProps) => (
   <HelloWorldTextStyled>
     {label}
   </HelloWorldTextStyled>
