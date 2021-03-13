@@ -1,6 +1,8 @@
 {
   "name": "cra-template-devzera",
+  "main": "template.json",
   "version": "1.0.0",
+  "author": "Leonardo Pinheiro <leonardo.pinheiro.dev@gmail.com",
   "keywords": [
     "devzera",
     "react",
