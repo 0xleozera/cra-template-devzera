@@ -38,7 +38,7 @@ export const useRequest = <Data = any, Error = any, DataRequest = any>({
       setError(err);
       onError && onError(err);
     }
-  }, [setError, data, endpoint, method, headers, service, onSuccess, onError]);
+  }, [setError, data, endpoint, method, headers, onSuccess, onError]);
 
   useEffect(() => {
     if (!lazy) {
